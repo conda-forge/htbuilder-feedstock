@@ -1,5 +1,5 @@
 {% set name = "htbuilder" %}
-{% set version = "0.6.2" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/htbuilder-{{ version }}.tar.gz
-  sha256: 9979a4fb6e50ce732bf6f6bc0441039dcaa3a3fc70689d8f38f601ed8a1aeec0
+  sha256: 61435d649438d5b7c3d30868f5644b83f0ab488d411eb0485439cb9e05223f19
 
 build:
   noarch: python
